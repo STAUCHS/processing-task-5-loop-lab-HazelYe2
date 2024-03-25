@@ -168,7 +168,7 @@ public class Sketch extends PApplet {
     for (int intRow = 0; intRow < 30; intRow++) {
       for (int intColumn = 0; intColumn < 30; intColumn++) {
         intX = 3 + intRow * 10;  // Instead of zero, calculate the proper intX location using 'intRow'
-        intY = 0 + 3 + intColumn * 10; // Instead of zero, calculate the proper intY location using 'intColumn'
+        intY = 3 + intColumn * 10; // Instead of zero, calculate the proper intY location using 'intColumn'
 
         fill(255);
         noStroke();
